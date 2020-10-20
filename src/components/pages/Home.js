@@ -12,7 +12,7 @@ export default class Home extends Component {
                 </Helmet>
                 <div className="center-text">
                     <img src={require("../../assets/images/misc/link-framed.png")} alt="twitch logo" className="xmedium responsive center" />
-                    <h1 className="no-padding no-margin">Welcome to ZestyDoug's Gaming page</h1>
+                    <h1 className="no-padding no-margin">Welcome to ZestyDoug's gaming page</h1>
                     <p>Follow me on some socials while I build out this site.</p>
                 </div>
                 <br/>
