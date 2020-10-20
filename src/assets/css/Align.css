@@ -7,8 +7,13 @@
 body {
     margin: 0;
     position: relative;
-    min-height: 100vh;
-    padding-bottom: 2.5rem;    /* Footer height */
+    /* TODO: un comment below when more on site */
+    /* min-height: 100vh;
+    padding-bottom: 2.5rem;    Footer height */
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/misc/space-stars.png");
+    background-size:cover;
+    background-color: black;
 }
 
 /* 

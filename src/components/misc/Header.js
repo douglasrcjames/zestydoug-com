@@ -12,7 +12,7 @@ class Header extends Component {
                         <img
                             className="nav-logo"
                             alt="logo"
-                            src={require("../../assets/images/logos/logo512.png")}
+                            src={require("../../assets/images/logos/link_head.png")}
                         />
                         <span className="nav-l-text">Doug's React Boiler</span>
                     </Link>

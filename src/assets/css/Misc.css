@@ -261,6 +261,14 @@ hr {
     content: none;
 }
 
+.social-icon { 
+    padding: 10px;
+}
+
+.social-icon:hover { 
+    background-color: #a17840;
+    border-radius: 25px;
+}
 
 
 

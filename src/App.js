@@ -21,9 +21,9 @@ function App() {
   return (
     <Router history={history}>
       <ScrollToTop>
-        <Header />
+        {/* <Header /> */}
         <Routes />
-        <Footer />
+        {/* <Footer /> */}
       </ScrollToTop>
     </Router>
   );

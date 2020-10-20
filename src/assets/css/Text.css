@@ -38,74 +38,56 @@ Grey: #A1A1A1
 Dark: #6B6B6B
 Light: #D6D6D6
 
-
-// TODO: update font and declarations around app
-
-Font: CormorantGaramond & PinyonScript
+Font: Roboto
 
 */
 /*//*//*//*//*//*//*//*/
-
-/* @font-face {
-    font-family: "CormorantGaramond-Light";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(../fonts/Roboto-Light.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Regular";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Medium";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-SemiBold";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf);
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Italic";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf);
+    font-family: "Roboto-Italic";
+    src: url(../fonts/Roboto-Italic.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Bold";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
-}
-
-@font-face {
-    font-family: "PinyonScript-Regular";
-    src: url(../fonts/Pinyon_Script/PinyonScript-Regular.ttf);
-} */
-
-.cormorant-garamond-regular {
-    font-family: "CormorantGaramond-Regular" !important;
-}
-
-.cormorant-garamond-medium {
-    font-family: "CormorantGaramond-Medium" !important;
-}
-
-.cormorant-garamond-bold {
-    font-family: "CormorantGaramond-Bold" !important;
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 
 /* 
 * Heading
 */
 h1 {
+    color: white;
     font-size: 3em;
-    font-family: "CormorantGaramond-Bold";
+    font-family: "Roboto-Bold";
 }
 
 h2 {
+    color: white;
     font-size: 2.5em;
-    font-family: "CormorantGaramond-Bold";
+    font-family: "Roboto-Bold";
 }
 
 h3 {
+    color: white;
     font-size: 1.5em;
     padding: 0px !important;
     margin: 0px !important;
-    font-family: "CormorantGaramond-Bold";
+    font-family: "Roboto-Bold";
     word-wrap: break-word !important;
     white-space: normal !important;
 }
@@ -123,50 +105,56 @@ h3 {
 }
 
 h4 {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "Roboto-Bold";
+    color: white;
 }
 
 h5 {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "Roboto-Bold";
+    color: white;
 }
 
 /* 
 * Body
 */
 p {
-    font-family: "CormorantGaramond-Medium" !important;
+    font-family: "Roboto-Medium" !important;
     line-height: 1.6;
     font-size: 16;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    font-family: "CormorantGaramond-Medium";
+    font-family: "Roboto-Medium";
     cursor: pointer;
+    color: white;
 }
 
 b {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "Roboto-Bold";
+    color: white;
 }
 
 i {
-    font-family: "CormorantGaramond-Italic";
+    font-family: "Roboto-Italic";
+    color: white;
 }
 
 ul,
 ol,
 li {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "Roboto-Medium";
     line-height: 1.6;
     font-size: 16;
 }
 
 div {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "Roboto-Medium";
 }
 
 span {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "Roboto-Medium";
 }
 
 

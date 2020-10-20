@@ -8,34 +8,68 @@ export default class Home extends Component {
         return (
             <div className="wrapper">
                 <Helmet>
-                    <title>Home | Doug's React Boiler</title>
+                    <title>Home | ZestyDoug</title>
                 </Helmet>
-                <h1>Home</h1>
-                {/* TODO: update content */}
-                <p>Welcome to Doug's React Boiler! Click around a bit, it's a clean slate for you!</p>
+                <div className="center-text">
+                    <img src={require("../../assets/images/misc/link-framed.png")} alt="twitch logo" className="xmedium responsive center" />
+                    <h1 className="no-padding no-margin">Welcome to ZestyDoug's Gaming page</h1>
+                    <p>Follow me on some socials while I build out this site.</p>
+                </div>
                 <br/>
                 <Grid fluid>
+                    <Row center="xs" className="s-margin-b">
+                        <Col sm={12} md={3}>
+                            <a rel="noopener noreferrer" href="https://www.twitch.tv/zestydoug" target="_blank">
+                                <div className="social-icon">
+                                    <img src={require("../../assets/images/icons/twitch.png")} alt="twitch logo" className="small-fit responsive center" />
+                                    <br/>
+                                    <h3>Twitch</h3>
+                                </div>
+                            </a> 
+                        </Col>
+                    </Row>
                     <Row center="xs">
-                        <Col xs={12} sm={4}>
-                            <i className="fas fa-seedling xl-icon" />
-                            <h3>Column 1</h3>
-                            <p>More information below</p>
+                        <Col sm={12} md={3}>
+                            <a rel="noopener noreferrer" href="https://www.instagram.com/zestydoug" target="_blank">
+                                <div className="social-icon">
+                                    <img src={require("../../assets/images/icons/instagram.png")} alt="instagram logo" className="small-fit responsive center" />
+                                    <br/>
+                                    <h3>Instagram</h3>
+                                </div>
+                            </a> 
                         </Col>
-                        <Col xs={12} sm={4}>
-                            <i className="fas fa-tree xl-icon" />
-                            <h3>Column 2</h3>
-                            <p>More information below</p>
+                        <Col sm={12} md={3}>
+                            <a rel="noopener noreferrer" href="https://www.facebook.com/ZestyDoug" target="_blank">
+                                <div className="social-icon">
+                                    <img src={require("../../assets/images/icons/facebook.png")} alt="facebook logo" className="small-fit responsive center" />
+                                    <br/>
+                                    <h3>Facebook</h3>
+                                </div>
+                            </a>
                         </Col>
-                        <Col xs={12} sm={4}>
-                            <i className="fas fa-globe-africa xl-icon" />
-                            <h3>Column 3</h3>
-                            <p>More information below</p>
+                        <Col sm={12} md={3}>
+                            <a rel="noopener noreferrer" href="https://twitter.com/ZestyDoug" target="_blank">
+                                <div className="social-icon">
+                                    <img src={require("../../assets/images/icons/twitter.png")} alt="twitter logo" className="small-fit responsive center" />
+                                    <br/>
+                                    <h3>Twitter</h3>
+                                </div>  
+                            </a>
+                        </Col>
+                        <Col sm={12} md={3}>
+                            <a rel="noopener noreferrer" href="https://www.youtube.com/channel/UCzot0zQk0wh1eXlTx897huQ" target="_blank">
+                                <div className="social-icon">
+                                    <img src={require("../../assets/images/icons/youtube.png")} alt="youtube logo" className="small-fit responsive center" />
+                                    <br/>
+                                    <h3>YouTube</h3>
+                                </div>
+                            </a> 
                         </Col>
                     </Row>
                 </Grid>
-                <br/>
+                {/* <br/>
                 <h1>Contact</h1>
-                <ContactForm />
+                <ContactForm /> */}
             </div>
         )
     }

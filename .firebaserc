@@ -1,5 +1,6 @@
 {
   "projects": {
-    "live": "dougs-react-boiler"
+    "live": "zestydoug-com",
+    "default": "zestydoug-com"
   }
 }
