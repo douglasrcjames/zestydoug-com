@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Route, Switch, withRouter } from "react-router-dom";
 
-import withTracker from './components/misc/WithTracker';
 import { Page404 } from "./components/misc/Page404";
 
 // Pages
@@ -12,9 +11,9 @@ class Routes extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path="/" component={withTracker(Home)} />
-                <Route exact path="/about" component={withTracker(About)} />
-                <Route component={withTracker(Page404)} />
+                <Route exact path="/" component={() => <Home />} />
+                <Route exact path="/about" component={() => <About />} />
+                <Route component={() => <Page404 />} />
             </Switch>
         )
     }

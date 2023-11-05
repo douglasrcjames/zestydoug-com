@@ -5,6 +5,7 @@ import 'firebase/auth';        // for authentication
 import 'firebase/storage';     // for storage
 import 'firebase/firestore';   // for cloud firestore
 import 'firebase/functions';   // for cloud functions
+import 'firebase/analytics';   
 // import 'firebase/messaging'; // for cloud messaging
 
 // TODO: include the config vars in the .env file
@@ -39,6 +40,7 @@ const fire = firebase.initializeApp(config);
 const firestore = firebase.firestore();
 const storage = firebase.storage();
 const functions = firebase.functions();
+const analytics = firebase.analytics();
 
 // TODO: if you want in browser notifications, here is the setup for that
 // const auth = firebase.auth();
@@ -75,5 +77,6 @@ export {
   firestore, 
   storage, 
   functions, 
+    analytics,
   // messaging 
 };
